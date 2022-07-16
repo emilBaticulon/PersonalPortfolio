@@ -3,8 +3,8 @@
 	"name": "Emil Baticulon's Profile",
 	"icons": [
 		{
-			"src": "icon.png",
-			"type": "image/png",
+			"src": "assets/icons/icons.svg",
+			"type": "image/svg+xml",
 			"sizes": "192x192"
 		}
 	],
