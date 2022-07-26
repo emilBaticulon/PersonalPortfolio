@@ -75,6 +75,18 @@ const portfolios = [
     },
     {
         id: 6,
+        image: 'assets/img/portfolios/threed-models-thumb.jpg',
+        imageAlt: 'Three D Click and Print 3D model - Thumbnail Image',
+        link: '#',
+        title: 'Three D Click and Print 3D model',
+        category: [
+            '3D/CAD',
+        ],
+        excerpt:"Three D Click and Print 3D model",
+        description: 'I created 3D models for the client and it is used for the material selection and the 3D printing process.',
+    },
+    {
+        id: 7,
         image: 'assets/img/portfolios/psuk-landing-thumb.jpg',
         imageAlt: 'British College of Professional Styling Black Friday Landing Page - Thumbnail Image',
         link: '#',
@@ -86,7 +98,7 @@ const portfolios = [
         description: 'I created the page layout and the style of the website from scratch based on existing design requested by the client. I also help to make the website responsive and optimized performance.',
     },
     {
-        id: 7,
+        id: 8,
         image: 'assets/img/portfolios/iduk-home-thumb.jpg',
         imageAlt: 'British College of Interior Design Home Page - Thumbnail Image',
         link: '#',
@@ -98,7 +110,7 @@ const portfolios = [
         description: 'I created the page layout and the style of the website from scratch based on existing design requested by the client. I also help to make the website responsive and optimized performance.',
     },
     {
-        id: 8,
+        id: 9,
         image: 'assets/img/portfolios/iduk-open-graph-thumb.jpg',
         imageAlt: 'British College of Interior Design Open Graph Image - Thumbnail Image',
         link: '#',
@@ -219,6 +231,620 @@ const socialLinks = [
     // },
 ];
 
+const skills = [
+    {
+        id: 1,
+        name: 'HTML',
+        icon: 'assets/icons/icons.svg#html5',
+        level: '95',
+        color: '#E34F26',
+        info: 'HTML5 is the most used markup language in the world. It is used to create web pages and web applications.',
+        link: 'https://en.wikipedia.org/wiki/HTML5',
+    },
+    {
+        id: 2,
+        name: 'CSS',
+        icon: 'assets/icons/icons.svg#css3',
+        level: '95',
+        color: '#1572B6',
+        info: 'CSS3 is the most used styling language in the world. It is used to style web pages and web applications.',
+        link: 'https://en.wikipedia.org/wiki/CSS3',
+    },
+    {
+        id: 3,
+        name: 'JavaScript',
+        icon: 'assets/icons/icons.svg#js',
+        level: '95',
+        color: '#F7DF1E',
+        info: 'JavaScript is the most used scripting language in the world. It is used to create web pages and web applications.',
+        link: 'https://en.wikipedia.org/wiki/JavaScript',
+    },
+    {
+        id: 4,
+        name: 'Visual Studio Code',
+        icon: 'assets/icons/icons.svg#vsCode',
+        level: '95',
+        color: '#007ACC',
+        info: 'Visual Studio Code is the most used IDE in the world. It is used to create web pages and web applications.',
+        link: 'https://code.visualstudio.com/',
+    },
+    {
+        id: 5,
+        name: 'Bootstrap',
+        icon: 'assets/icons/icons.svg#bootstrap',
+        level: '95',
+        color: '#7952B3',
+        info: 'Bootstrap is the most used framework in the world. It is used to create web pages and web applications.',
+        link: 'https://getbootstrap.com/',
+    },
+    {
+        id: 6,
+        name: 'Font Awesome',
+        icon: 'assets/icons/icons.svg#fontAwesome',
+        level: '95',
+        color: '#528DD7',
+        info: 'Font Awesome is the most used icon library in the world. It is used to create web pages and web applications.',
+        link: 'https://fontawesome.com/',
+    },
+    {
+        id: 7,
+        name: 'Google Fonts',
+        icon: 'assets/icons/icons.svg#googleFonts',
+        level: '95',
+        color: '#4285F4',
+        info: 'Google Fonts is the most used font library in the world. It is used to create web pages and web applications.',
+        link: 'https://fonts.google.com/',
+    },
+    {
+        id: 8,
+        name: 'Affinity Designer',
+        icon: 'assets/icons/icons.svg#affinityDesigner',
+        level: '95',
+        color: '#1B72BE',
+        info: 'Affinity Designer is the most used design software in the world. It is used to create web pages and web applications.',
+        link: 'https://affinity.serif.com/en-gb/designer/',
+    },
+    {
+        id: 9,
+        name: 'Affinity Photo',
+        icon: 'assets/icons/icons.svg#affinityPhoto',
+        level: '95',
+        color: '#7E4DD2',
+        info: 'Affinity Photo is the most used photo software in the world. It is used to create web pages and web applications.',
+        link: 'https://affinity.serif.com/en-gb/photo/',
+    },
+    {
+        id: 10,
+        name: 'Adobe Photoshop',
+        icon: 'assets/icons/icons.svg#adobePhotoshop',
+        level: '95',
+        color: '#31A8FF',
+        info: 'Adobe Photoshop is the most used photo software in the world. It is used to create web pages and web applications.',
+        link: 'https://www.adobe.com/products/photoshop.html',
+    },
+    {
+        id: 11,
+        name: 'Adobe Illustrator',
+        icon: 'assets/icons/icons.svg#adobeIllustrator',
+        level: '95',
+        color: '#FF9A00',
+        info: 'Adobe Illustrator is the most used photo software in the world. It is used to create web pages and web applications.',
+        link: 'https://www.adobe.com/products/illustrator.html',
+    },
+    {
+        id: 12,
+        name: 'Adobe XD',
+        icon: 'assets/icons/icons.svg#adobeXD',
+        level: '95',
+        color: '#FF61F6',
+        info: 'Adobe XD is the most used photo software in the world. It is used to create web pages and web applications.',
+        link: 'https://www.adobe.com/products/xd.html',
+    },
+    {
+        id: 13,
+        name: 'Git',
+        icon: 'assets/icons/icons.svg#git',
+        level: '95',
+        color: '#F05032',
+        info: 'Git is the most used version control system in the world. It is used to create web pages and web applications.',
+        link: 'https://git-scm.com/',
+    },
+    {
+        id: 14,
+        name: 'GitHub',
+        icon: 'assets/icons/icons.svg#github',
+        level: '95',
+        color: '#181717',
+        info: 'GitHub is the most used version control system in the world. It is used to create web pages and web applications.',
+        link: 'https://github.com/emilBaticulon',
+    },
+    {
+        id: 15,
+        name: 'Google Chrome',
+        icon: 'assets/icons/icons.svg#googleChrome',
+        level: '95',
+        color: '#4285F4',
+        info: 'Google Chrome is the most used browser in the world. It is used to create web pages and web applications.',
+        link: 'https://www.google.com/chrome/',
+    },
+    {
+        id: 16,
+        name: 'Microsoft Edge',
+        icon: 'assets/icons/icons.svg#microsoftEdge',
+        level: '95',
+        color: '#0078D7',
+        info: 'Microsoft Edge is the most used browser in the world. It is used to create web pages and web applications.',
+        link: 'https://www.microsoft.com/en-us/edge',
+    },
+    {
+        id: 17,
+        name: 'Safari',
+        icon: 'assets/icons/icons.svg#safari',
+        level: '95',
+        color: '#FFC107', // #000000
+        info: 'Safari is the most used browser in the world. It is used to create web pages and web applications.',
+        link: 'https://www.apple.com/safari/',
+    },
+    {
+        id: 18,
+        name: 'Firefox',
+        icon: 'assets/icons/icons.svg#firefox',
+        level: '95',
+        color: '#FF7139',
+        info: 'Firefox is the most used browser in the world. It is used to create web pages and web applications.',
+        link: 'https://www.mozilla.org/en-US/firefox/',
+    },
+    {
+        id: 19,
+        name: 'FileZilla',
+        icon: 'assets/icons/icons.svg#fileZilla',
+        level: '95',
+        color: '#BF0000',
+        info: 'FileZilla is the most used FTP client in the world. It is used to create web pages and web applications.',
+        link: 'https://filezilla-project.org/',
+    },
+    {
+        id: 20,
+        name: 'Google Analytics',
+        icon: 'assets/icons/icons.svg#googleAnalytics',
+        level: '95',
+        color: '#E37400',
+        info: 'Google Analytics is the most used analytics software in the world. It is used to create web pages and web applications.',
+        link: 'https://analytics.google.com/',
+    },
+    {
+        id: 21,
+        name: 'Google Search Console',
+        icon: 'assets/icons/icons.svg#googleSearchConsole',
+        level: '95',
+        color: '#458CF5',
+        info: 'Google Search Console is the most used analytics software in the world. It is used to create web pages and web applications.',
+        link: 'https://search.google.com/search-console/',
+    },
+    {
+        id: 22,
+        name: 'Google Sheets',
+        icon: 'assets/icons/icons.svg#googleSheets',
+        level: '95',
+        color: '#34A853',
+        info: '',
+        link: 'https://sheets.google.com/',
+    },
+    {
+        id: 23,
+        name: 'Google Drive',
+        icon: 'assets/icons/icons.svg#googleDrive',
+        level: '95',
+        color: '#4285F4',
+        info: '',
+        link: 'https://drive.google.com/',
+    },
+    {
+        id: 24,
+        name: 'Google Meet',
+        icon: 'assets/icons/icons.svg#googleMeet',
+        level: '95',
+        color: '#00897B',
+        info: '',
+        link: 'https://meet.google.com/',
+    },
+    {
+        id: 25,
+        name: 'Google Chat',
+        icon: 'assets/icons/icons.svg#googleChat',
+        level: '95',
+        color: '#00AC47',
+        info: '',
+    },
+    {
+        id: 26,
+        name: 'Gmail',
+        icon: 'assets/icons/icons.svg#googleGmail',
+        level: '95',
+        color: '#EA4335',
+        info: '',
+        link: 'https://mail.google.com/',
+    },
+    {
+        id: 27,
+        name: 'Google Domains',
+        icon: 'assets/icons/icons.svg#googleDomains',
+        level: '95',
+        color: '#4285F4',
+        info: '',
+        link: 'https://domains.google.com/',
+    },
+    {
+        id: 28,
+        name: 'Microsoft Word',
+        icon: 'assets/icons/icons.svg#microsoftWord',
+        level: '95',
+        color: '#2B579A',
+        info: '',
+        link: 'https://www.microsoft.com/en-us/office/office-365-for-business.aspx',
+    },
+    {
+        id: 29,
+        name: 'Microsoft Excel',
+        icon: 'assets/icons/icons.svg#microsoftExcel',
+        level: '95',
+        color: '#217346',
+        info: '',
+        link: 'https://www.microsoft.com/en-us/office/office-365-for-business.aspx',
+    },
+    {
+        id: 30,
+        name: 'Microsoft Teams',
+        icon: 'assets/icons/icons.svg#microsoftTeams',
+        level: '95',
+        color: '#6264A7',
+        info: '',
+        link: 'https://www.microsoft.com/en-us/microsoft-teams/group-chat-software',
+    },
+    {
+        id: 31,
+        name: 'Microsoft Windows',
+        icon: 'assets/icons/icons.svg#microsoftWindows',
+        level: '95',
+        color: '#0078D6',
+        info: '',
+        link: 'https://www.microsoft.com/en-us/windows/',
+    },
+    {
+        id: 32,
+        name: 'Windows Terminal',
+        icon: 'assets/icons/icons.svg#windowsTerminal',
+        level: '95',
+        color: '#4D4D4D',
+        info: '',
+        link: 'https://github.com/microsoft/terminal',
+    },
+    {
+        id: 33,
+        name: 'WordPress',
+        icon: 'assets/icons/icons.svg#wordpress',
+        level: '95',
+        color: '#21759B',
+        info: '',
+        link: 'https://wordpress.org/',
+    },
+    // {
+    //     id: 33,
+    //     name: 'WP Rocket',
+    //     icon: 'assets/icons/icons.svg#wpRocket',
+    //     level: '95',
+    //     color: '#F56640',
+    //     info: '',
+    //     link: 'https://wp-rocket.me/',
+    // },
+    // {
+    //     id: 34,
+    //     name: 'Yoast SEO',
+    //     icon: 'assets/icons/icons.svg#yoastSEO',
+    //     level: '95',
+    //     color: '#A4286A',
+    //     info: '',
+    //     link: 'https://yoast.com/',
+    // },
+    {
+        id: 35,
+        name: 'Jira',
+        icon: 'assets/icons/icons.svg#jira',
+        level: '95',
+        color: '#0052CC',
+        info: '',
+        link: 'https://www.atlassian.com/software/jira',
+    },
+    {
+        id: 36,
+        name: 'Confluence',
+        icon: 'assets/icons/icons.svg#confluence',
+        level: '95',
+        color: '#172B4D',
+        info: '',
+        link: 'https://www.atlassian.com/software/confluence',
+    },
+    {
+        id: 37,
+        name: 'ClickUp',
+        icon: 'assets/icons/icons.svg#clickUp',
+        level: '95',
+        color: '#7B68EE',
+        info: '',
+        link: 'https://clickup.com/',
+    },
+    {
+        id: 38,
+        name: 'Zoom',
+        icon: 'assets/icons/icons.svg#zoom',
+        level: '95',
+        color: '#2D8CFF',
+        info: '',
+        link: 'https://zoom.us/',
+    },
+    {
+        id: 39,
+        name: 'Slack',
+        icon: 'assets/icons/icons.svg#slack',
+        level: '95',
+        color: '#4A154B',
+        info: '',
+        link: 'https://slack.com/',
+    },
+    {
+        id: 40,
+        name: 'GNU Bash',
+        icon: 'assets/icons/icons.svg#gnuBash',
+        level: '95',
+        color: '#4EAA25',
+        info: '',
+        link: 'https://www.gnu.org/software/bash/',
+    },
+    {
+        id: 41,
+        name: 'Cloudflare',
+        icon: 'assets/icons/icons.svg#cloudflare',
+        level: '95',
+        color: '#F38020',
+        info: '',
+        link: 'https://www.cloudflare.com/',
+    },
+    {
+        id: 42,
+        name: 'Cloudflare Pages',
+        icon: 'assets/icons/icons.svg#cloudflarePages',
+        level: '95',
+        color: '#F38020',
+        info: '',
+        link: 'https://www.cloudflare.com/',
+    },
+    {
+        id: 43,
+        name: 'Figma',
+        icon: 'assets/icons/icons.svg#figma',
+        level: '95',
+        color: '#F24E1E',
+        info: '',
+        link: 'https://www.figma.com/',
+    },
+    {
+        id: 44,
+        name: 'Webflow',
+        icon: 'assets/icons/icons.svg#webflow',
+        level: '95',
+        color: '#4353FF',
+        info: '',
+        link: 'https://www.webflow.com/',
+    },
+    {
+        id: 45,
+        name: 'Pingdom',
+        icon: 'assets/icons/icons.svg#pingdom',
+        level: '95',
+        color: '#FFF000',
+        info: '',
+        link: 'https://www.pingdom.com/',
+    },
+    {
+        id: 46,
+        name: 'PageSpeed Insights',
+        icon: 'assets/icons/icons.svg#pageSpeedInsights',
+        level: '95',
+        color: '#4285F4',
+        info: '',
+        link: 'https://pagespeed.web.dev/',
+    },
+    {
+        id: 47,
+        name: 'Wappalyzer',
+        icon: 'assets/icons/icons.svg#wappalyzer',
+        level: '95',
+        color: '#32067C',
+        info: '',
+        link: 'https://www.wappalyzer.com/',
+    },
+    {
+        id: 48,
+        name: 'Lighthouse',
+        icon: 'assets/icons/icons.svg#lighthouse',
+        level: '95',
+        color: '#F44B21',
+        info: '',
+        link: 'https://developers.google.com/web/tools/lighthouse/',
+    },
+    // {
+    //     id: 49,
+    //     name: 'Bitwarden',
+    //     icon: 'assets/icons/icons.svg#bitwarden',
+    //     level: '95',
+    //     color: '#175DDC',
+    //     info: '',
+    //     link: 'https://bitwarden.com/',
+    // },
+    {
+        id: 50,
+        name: 'Hotjar',
+        icon: 'assets/icons/icons.svg#hotjar',
+        level: '95',
+        color: '#FD3A5C',
+        info: '',
+        link: 'https://hotjar.com/',
+    },
+    {
+        id: 51,
+        name: 'Namecheap',
+        icon: 'assets/icons/icons.svg#namecheap',
+        level: '95',
+        color: '#DE3723',
+        info: '',
+        link: 'https://www.namecheap.com/',
+    },
+    {
+        id: 52,
+        name: 'Canva',
+        icon: 'assets/icons/icons.svg#canva',
+        level: '95',
+        color: '#00C4CC',
+        info: '',
+        link: 'https://www.canva.com/',
+    },
+    {
+        id: 53,
+        name: 'CodePen',
+        icon: 'assets/icons/icons.svg#codePen',
+        level: '95',
+        color: '#000000',
+        info: '',
+        link: 'https://codepen.io/',
+    },
+    // {
+    //     id: 54,
+    //     name: 'Cpanel',
+    //     icon: 'assets/icons/icons.svg#cpanel',
+    //     level: '95',
+    //     color: '#FF6C2C',
+    //     info: '',
+    //     link: 'https://cpanel.net/',
+    // },
+    // {
+    //     id: 55,
+    //     name: 'Plesk',
+    //     icon: 'assets/icons/icons.svg#plesk',
+    //     level: '95',
+    //     color: '#52BBE6',
+    //     info: '',
+    //     link: 'https://www.plesk.com/',
+    // },
+    // {
+    //     id: 56,
+    //     name: 'Python',
+    //     icon: 'assets/icons/icons.svg#python',
+    //     level: '95',
+    //     color: '#3776AB',
+    //     info: '',
+    //     link: 'https://www.python.org/',
+    // },
+    // {
+    //     id: 57,
+    //     name: 'Flask',
+    //     icon: 'assets/icons/icons.svg#flask',
+    //     level: '95',
+    //     color: '#000000',
+    //     info: '',
+    //     link: 'https://flask.palletsprojects.com/',
+    // },
+    // {
+    //     id: 58,
+    //     name: 'Go Lang',
+    //     icon: 'assets/icons/icons.svg#goLang',
+    //     level: '95',
+    //     color: '#00ADD8',
+    //     info: '',
+    //     link: 'https://golang.org/',
+    // },
+    // {
+    //     id: 59,
+    //     name: 'Node JS',
+    //     icon: 'assets/icons/icons.svg#nodeJS',
+    //     level: '95',
+    //     color: '#339933',
+    //     info: '',
+    //     link: 'https://nodejs.org/en/',
+    // },
+    // {
+    //     id: 60,
+    //     name: 'Svelte',
+    //     icon: 'assets/icons/icons.svg#svelte',
+    //     level: '95',
+    //     color: '#FF3E00',
+    //     info: '',
+    //     link: 'https://svelte.dev/',
+    // },
+    // {
+    //     id: 61,
+    //     name: 'Nginx',
+    //     icon: 'assets/icons/icons.svg#nginx',
+    //     level: '95',
+    //     color: '#009639',
+    //     info: '',
+    //     link: 'https://nginx.org/',
+    // },
+    // {
+    //     id: ,
+    //     name: 'Vultr',
+    //     icon: 'assets/icons/icons.svg#vultr',
+    //     level: '95',
+    //     color: '#007BFC',
+    //     info: '',
+    //     link: 'https://www.vultr.com/',
+    // },
+    // {
+    //     id: ,
+    //     name: 'FreeCodeCamp',
+    //     icon: 'assets/icons/icons.svg#freeCodeCamp',
+    //     level: '95',
+    //     color: '#0A0A23',
+    //     info: '',
+    //     link: 'https://www.freecodecamp.org/',
+    // },
+    // {
+    //     id: 54,
+    //     name: 'CodeProject',
+    //     icon: 'assets/icons/icons.svg#codeProject',
+    //     level: '95',
+    //     color: '#FF9900',
+    //     info: '',
+    //     link: 'https://www.codeproject.com/',
+    // },
+    // {
+    //     id: ,
+    //     name: 'Autodesk',
+    //     icon: 'assets/icons/icons.svg#autodesk',
+    //     level: '95',
+    //     color: '#0696D7',
+    //     info: '',
+    //     link: 'https://www.autodesk.com/',
+    // },
+    // {
+    //     id: ,
+    //     name: 'Bulma',
+    //     icon: 'assets/icons/icons.svg#bulma',
+    //     level: '95',
+    //     color: '#00D1B2,
+    //     info: 'Bulma is one of the most popular CSS framework in the world. It is used to create web pages and web applications.',
+    //     link: 'https://bulma.io/',
+    // },
+    // {
+    //     id: ,
+    //     name: 'Tailwind CSS',
+    //     icon: 'assets/icons/icons.svg#tailwind',
+    //     level: '95',
+    //     color: '#06B6D4',
+    //     info: 'Tailwind CSS is the most used framework in the world. It is used to create web pages and web applications.',
+    //     link: 'https://tailwindcss.com/',
+    // },
+];
+
 window.addEventListener('load', () => {
 
     // Remove preloader - Start
@@ -237,7 +863,14 @@ window.addEventListener('load', () => {
         // console.log('toggle clicked');
         sidemenuContainer.classList.toggle('active');
         sidemenuToggleContainer.classList.toggle('active');
+
     });
+
+    sidemenuToggleContainer.addEventListener('click', (e) => {
+        e.stopPropagation();
+    });
+
+
 
     // Open and Close Sidemenu - End
 
@@ -285,7 +918,9 @@ window.addEventListener('load', () => {
             return `
                 <button class="portfolio-item" data-category="${category}" data-id="${id}" aria-label="${title}">
                     <div class="portfolio-item--wrapper">
-                        <img class="portfolio-item--image" data-full-image="${imgFull}" src="${img}" alt="${imgAlt}" width="253" height="158" loading="lazy">
+                        <div class="portfolio-item--image--container">
+                            <img class="portfolio-item--image" data-full-image="${imgFull}" src="${img}" alt="${imgAlt}" width="253" height="158" loading="lazy">
+                        </div>
 
                         <div class="portfolio-item--details">
                             <h3 class="portfolio-item--title">${title}</h3>
@@ -341,12 +976,12 @@ window.addEventListener('load', () => {
                 // console.log(e.target.dataset.filter);
                 const filter = e.target.dataset.filter;
 
-
                 let filteredPortfolioItems = portfolios.filter(item => item.category.includes(filter))
 
                 // console.log(filteredPortfolioItems);
 
                 // displayPortfolioItems(filteredPortfolioItems);
+
 
                 if (filter === 'all') {
                     displayPortfolioItems(portfolios);
@@ -357,6 +992,7 @@ window.addEventListener('load', () => {
                 // console.log(displayPortfolioItems(filteredPortfolioItems));
 
             });
+
         }
 
     }
@@ -412,7 +1048,7 @@ window.addEventListener('load', () => {
             }
 
 
-            console.log(currentItemLink);
+            // console.log(currentItemLink);
 
             // if (curr) {
 
@@ -634,6 +1270,17 @@ window.addEventListener('load', () => {
     // Contact Form - End
 
 
+    // Back to top - Start
+    let backToTopBtn = document.querySelector('.back-top-btn');
+
+    backToTopBtn.addEventListener('click', () => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    });
+
+    // Back to top - End
 
 
     // Automatically add current year - Start
