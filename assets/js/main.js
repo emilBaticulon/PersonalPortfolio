@@ -14,112 +14,112 @@ window.addEventListener('DOMContentLoaded', () => {
 const portfolios = [
     {
         id: 1,
-        image: 'assets/img/portfolios/socially-nina-thumb.jpg',
-        imageAlt: 'Socially Nina Website - Thumbnail Image',
-        link: '#',
-        title: 'Socially Nina',
-        excerpt:"Socially Nina",
+        image: `assets/img/portfolios/threed-models-thumb.jpg`,
+        imageAlt: `Three D Click and Print 3D model - Thumbnail Image`,
+        link: `#`,
+        title: `Three D Click and Print 3D model`,
         category: [
-            'frontend',
-            'design',
+            `3D/CAD`,
         ],
-        description: 'Years ago, before she created the &ldquo;Socially Nina&rdquo; brand, She spent days, nights and plenty of weekends working in corporate America, surrounded by co-workers and bosses that didn&apos;t care about her career trajectory and mental health.',
+        excerpt:`Three D Click and Print 3D model`,
+        description: `I created 3d models for 3DClickandPrint. These 3d assets are used on the company&apos;s material selection software, providing customers a preview of the various materials before purchasing for print.`,
     },
     {
         id: 2,
-        image: 'assets/img/portfolios/porsche-approved-thumb.jpg',
-        imageAlt: 'Porsche Approved Australia - Thumbnail Image',
-        link: '#',
-        title: 'Porsche Approved Australia',
+        image: `assets/img/portfolios/iduk-open-graph-thumb.jpg`,
+        imageAlt: `British College of Interior Design Open Graph Image - Thumbnail Image`,
+        link: `#`,
+        title: `British College of Interior Design: OG Image`,
         category: [
-            'frontend',
+            `frontend`,
         ],
-        excerpt:"Porsche Approved Australia",
-        description: 'Fixed the underlying issues on CSS and reduce the number of HTML elements to reduce the document size, and I also help to make the website responsive.',
+        excerpt:`British College of Interior Design Open Graph Image`,
+        description: `I designed and coded the Open Graph images for Australian News & Features Service across their websites British College of Interior Design, British College of Professional Styling, British College of Journalism, and Travel Journalism UK, to increase their SEO rankings and provide more potential for viewers to share their web pages and click through to their websites.`,
     },
     {
         id: 3,
-        image: 'assets/img/portfolios/new-peugeot-thumb.jpg',
-        imageAlt: 'Peugeot 5008 landing page - Thumbnail Image',
-        link: '#',
-        title: 'New Peugeot 5008',
+        image: `assets/img/portfolios/socially-nina-thumb.jpg`,
+        imageAlt: `Socially Nina Website - Thumbnail Image`,
+        link: `#`,
+        title: `Socially Nina`,
+        excerpt:`Socially Nina`,
         category: [
-            'frontend',
+            `frontend`,
+            `design`,
         ],
-        excerpt:"New Peugeot 5008 Landing Page",
-        description: 'I created the page layout and the style of the website from scratch based on existing design requested by the client. I also help to make the website responsive and optimized performance.',
+        description: `I built the SociallyNina website in WordPress using Elementor, based on the approved design. I created 4 different page layouts, making sure each page is responsive and optimized to a score of A+ in GTMetrix. I also assisted in fixing Google Search Console issues.`,
     },
     {
         id: 4,
-        image: 'assets/img/portfolios/peugeot-configurator-thumb.jpg',
-        imageAlt: 'Peugeot Configurator - Thumbnail Image',
-        link: '#',
-        title: 'Peugeot Configurator',
+        image: `assets/img/portfolios/porsche-approved-thumb.jpg`,
+        imageAlt: `Porsche Approved Australia - Thumbnail Image`,
+        link: `#`,
+        title: `Porsche Approved Australia`,
         category: [
-            'frontend',
+            `frontend`,
         ],
-        excerpt:"Peugeot Configurator",
-        description: 'Fixed the underlying issues on CSS and reduce the number of HTML elements to reduce the document size, and I also help to make the website responsive.',
+        excerpt:`Porsche Approved Australia`,
+        description: `I assisted in restructuring the HTML and CSS for the vehicle listing modules for Porsche Australia dealerships. In line with this, I recoded the list view for the vehicles, implementing responsiveness across screen devices.`,
     },
     {
         id: 5,
-        image: 'assets/img/portfolios/ducati-melbourne-thumb.jpg',
-        imageAlt: 'Ducati Melbourne - Thumbnail Image',
-        link: '#',
-        title: 'Ducati Melbourne West',
+        image: `assets/img/portfolios/new-peugeot-thumb.jpg`,
+        imageAlt: `Peugeot 5008 landing page - Thumbnail Image`,
+        link: `#`,
+        title: `New Peugeot 5008`,
         category: [
-            'frontend',
+            `frontend`,
         ],
-        excerpt:"Ducati Melbourne West",
-        description: 'I helped a colleague to create the website layout and the style of the website from scratch based on existing design requested by the client. I also help to make the website responsive and optimized performance.',
+        excerpt:`New Peugeot 5008 Landing Page`,
+        description: `Peugeot Australia requested a redesign for their dealership websites. I was part of the team who rebuilt the websites to implement the new Peugeot branding. I created page templates for the content team to use, and structured the HTML and CSS for mobile-first responsiveness.`,
     },
     {
         id: 6,
-        image: 'assets/img/portfolios/threed-models-thumb.jpg',
-        imageAlt: 'Three D Click and Print 3D model - Thumbnail Image',
-        link: '#',
-        title: 'Three D Click and Print 3D model',
+        image: `assets/img/portfolios/peugeot-configurator-thumb.jpg`,
+        imageAlt: `Peugeot Configurator - Thumbnail Image`,
+        link: `#`,
+        title: `Peugeot Configurator`,
         category: [
-            '3D/CAD',
+            `frontend`,
         ],
-        excerpt:"Three D Click and Print 3D model",
-        description: 'I created 3D models for the client and it is used for the material selection and the 3D printing process.',
+        excerpt:`Peugeot Configurator`,
+        description: `For The Peugeot Australia Configurator web app, I fixed underlying CSS issues related to responsiveness, and reduced the number of HTML elements to reduce the document size for improved performance. The client noted that their was a significant increase in successful test drive bookings.`,
     },
     {
         id: 7,
-        image: 'assets/img/portfolios/psuk-landing-thumb.jpg',
-        imageAlt: 'British College of Professional Styling Black Friday Landing Page - Thumbnail Image',
-        link: '#',
-        title: 'British College of Professional Styling',
+        image: `assets/img/portfolios/ducati-melbourne-thumb.jpg`,
+        imageAlt: `Ducati Melbourne - Thumbnail Image`,
+        link: `#`,
+        title: `Ducati Melbourne West`,
         category: [
-            'frontend',
+            `frontend`,
         ],
-        excerpt:"British College of Professional Styling Black Friday Landing Page",
-        description: 'I created the page layout and the style of the website from scratch based on existing design requested by the client. I also help to make the website responsive and optimized performance.',
+        excerpt:`Ducati Melbourne West`,
+        description: `I assisted a colleague to create and code the new website for Ducati Melbourne West, taking into account the updated styles and branding. I was mainly focused on seamless responsiveness and optimized performance.`,
     },
     {
         id: 8,
-        image: 'assets/img/portfolios/iduk-home-thumb.jpg',
-        imageAlt: 'British College of Interior Design Home Page - Thumbnail Image',
-        link: '#',
-        title: 'British College of Interior Design',
+        image: `assets/img/portfolios/psuk-landing-thumb.jpg`,
+        imageAlt: `British College of Professional Styling Black Friday Landing Page - Thumbnail Image`,
+        link: `#`,
+        title: `British College of Professional Styling`,
         category: [
-            'frontend',
+            `frontend`,
         ],
-        excerpt:"British College of Interior Design Home Page",
-        description: 'I created the page layout and the style of the website from scratch based on existing design requested by the client. I also help to make the website responsive and optimized performance.',
+        excerpt:`British College of Professional Styling Black Friday Landing Page`,
+        description: `I created custom web pages for Australian News & Features Service from scratch, for multiple seasonal campaigns such as Black Friday and New Year&pos;s Specials. These custom web pages include TrustPilot sections and forms with coupon codes that populate their database, enabling the business to push their seasonal automated emails.`,
     },
     {
         id: 9,
-        image: 'assets/img/portfolios/iduk-open-graph-thumb.jpg',
-        imageAlt: 'British College of Interior Design Open Graph Image - Thumbnail Image',
-        link: '#',
-        title: 'British College of Interior Design: OG Image',
+        image: `assets/img/portfolios/iduk-home-thumb.jpg`,
+        imageAlt: `British College of Interior Design Home Page - Thumbnail Image`,
+        link: `#`,
+        title: `British College of Interior Design`,
         category: [
-            'frontend',
+            `frontend`,
         ],
-        excerpt:"British College of Interior Design Open Graph Image",
-        description: 'I designed the Open Graph Image for the website to increase the SEO ranking of the post and to increase the chance of clicking the image when viewers shared the page.',
+        excerpt:`British College of Interior Design Home Page`,
+        description: `I rebuilt the Australian News & Features Service webites, pages and templates to match the redesign wanted by the client. The goal was to make all their websites responsive, optimize the sites&apos; speed, ultimately improving the performance of each site.`,
     },
 ];
 
@@ -893,6 +893,39 @@ window.addEventListener('load', () => {
         sidemenuToggleContainer.classList.toggle('active');
     }
     // Smooth Sroll to section - End
+
+    // Skills - Start
+    let skillsListContainer = document.querySelector('.skill-list--container');
+
+    for (s = 0; s < skills.length; s++) {
+        let skill = skills[s];
+        let skillName = skill.name;
+        let skillIcon = skill.icon;
+
+        let skillItem = document.createElement('div');
+        skillItem.classList.add('skill-item--container');
+        skillItem.innerHTML = `
+            <div class="skill-item--wrapper">
+                <svg class="skill-icon" data-name="${skillName}" viewBox="0 0 24 24">
+                    <use xlink:href="${skillIcon}"></use>
+                </svg>
+            </div>
+        `;
+        // skillItem.innerHTML = `
+        //     <div class="skill-item__icon">
+        //         <svg class="skill-item__icon-svg">
+        //             <use xlink:href="${skill.icon}"></use>
+        //         </svg>
+        //     </div>
+        //     <div class="skill-item__info">
+        //         <h3 class="skill-item__name">${skill.name}</h3>
+        //         <p class="skill-item__level">${skill.level}</p>
+        //     </div>
+        // `;
+        skillsListContainer.appendChild(skillItem);
+    }
+
+    // Skills - End
 
 
     // Portfolio - Start
