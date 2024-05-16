@@ -1,5 +1,8 @@
 # Allow crawling of all content
 User-agent: *
 Allow: /
+Allow: /index.html
 Disallow: /thank-you.html
 Disallow: /error.html
+Disallow: /thank-you
+Disallow: /error
